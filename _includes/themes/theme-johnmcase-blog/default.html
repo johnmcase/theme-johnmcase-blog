@@ -45,6 +45,9 @@
 			{% assign group = 'navigation' %}
 			{% include JB/pages_list %}
           </ul>
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a class="" href="{{ HOME_PATH }}about">About Me</a></li>
+		  </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -55,7 +58,7 @@
       </div>
 
       <footer>
-        <p>&copy; {{ site.author.name }} 2013 
+        <p>&copy; {{ site.author.name }} {{ site.time | date: "%Y" }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
         </p>

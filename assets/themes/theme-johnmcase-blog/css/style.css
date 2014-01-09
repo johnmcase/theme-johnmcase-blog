@@ -34,9 +34,14 @@
 	padding: 0.5em;
 }
 
-.caseclass {
+.blogtitle {
 	font-family: "Courier New", Courier, monospace;
 	font-size: 32px;
 	font-weight: bold;
 	color: rgb(127,0,85);
+}
+
+.blogtagline {
+	font-family: "Courier New", Courier, monospace;
+	padding-left: .5em;
 }
